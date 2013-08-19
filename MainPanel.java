@@ -1,5 +1,7 @@
 //David Noursi
-import java.awt.*;
+import java.awt.Color;
+import java.awt.FlowLayout;
+
 import javax.swing.*;
 public class MainPanel extends JPanel
 {

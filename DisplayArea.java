@@ -1,7 +1,13 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
 //David Noursi
-import javax.swing.*;
-import java.util.*;
-import java.io.*;
+
 public class DisplayArea extends JPanel
 {
    private String[] segs;
