@@ -1,9 +1,5 @@
 //David Noursi
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
-import java.applet.*;
-import java.net.*;
 import java.util.*;
 import java.io.*;
 public class DisplayArea extends JPanel
@@ -16,7 +12,7 @@ public class DisplayArea extends JPanel
    public void looker(int l, String t)
    {
       Article todisplay = new Article(t);
-      String[] segs = new String[x];
+      segs = new String[x];
    
       try
       {
@@ -27,6 +23,7 @@ public class DisplayArea extends JPanel
          {
             segs[y]=sc.nextLine();
          }
+         sc.close();
       }
       catch(FileNotFoundException e)
       {
