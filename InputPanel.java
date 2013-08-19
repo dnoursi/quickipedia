@@ -42,9 +42,6 @@ public class InputPanel extends JPanel
    }
    private class nextListener implements ActionListener
    {
-      public nextListener()
-      {
-      }
       public void actionPerformed(ActionEvent e) 
       {
          String title = JOptionPane.showInputDialog("What would you like to research next?");
