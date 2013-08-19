@@ -2,13 +2,22 @@
 public class Segment
 {
    private String myText;
-   public Segment(String a)
+   private String subjectTag;
+   public Segment(String text)
    {
-      myText = a;
+      this.myText = text;
+   }
+   public Segment(String text, String subjectTag)
+   {
+	   this.myText = text;
+	   this.subjectTag = subjectTag;
    }
    public String getText()
    {
       return myText;
+   }
+   public String getSubjectTag(){
+	   return this.subjectTag;
    }
    public int getLength()
    {
